@@ -26,15 +26,15 @@ It is a demo project with Laravel backend and Vue.js frontend.
     npm i
     ```
 5. ```console
-    sail artisian key:generate
+    sail artisan key:generate
     ```
 6. ```console
-    sail artisian migrate
+    sail artisan migrate
 7. ```console
-    sail artisian db:seed --class=DatabaseSeeder
+    sail artisan db:seed --class=DatabaseSeeder
     ```
 8. ```console
-    sail artisian serve
+    sail artisan serve
     ```
 9. ```console
     npm run dev
