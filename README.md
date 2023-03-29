@@ -33,7 +33,6 @@ It is a demo project with Laravel backend and Vue.js frontend.
 7. ```console
     sail artisian db:seed --class=DatabaseSeeder
     ```
-    ```
 8. ```console
     sail artisian serve
     ```
