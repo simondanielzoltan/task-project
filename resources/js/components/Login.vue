@@ -73,8 +73,8 @@ export default {
   data() {
     return {
       auth: {
-        email: "asdasd@asd.hu",
-        password: "123456789",
+        email: "",
+        password: "",
       },
       validationErrors: {},
       processing: false,

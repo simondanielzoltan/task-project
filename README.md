@@ -5,6 +5,9 @@
 It is a demo project with Laravel backend and Vue.js frontend.
 
 ## Configure
+0. ```console
+    alias sail='[ -f sail ] && sh sail || sh vendor/bin/sail'
+    ```
 1. ```console
     docker run --rm \
     -u "$(id -u):$(id -g)" \
@@ -27,16 +30,16 @@ It is a demo project with Laravel backend and Vue.js frontend.
     ```
 6. ```console
     sail artisian migrate
-    ```
 7. ```console
-    sail artisian serve
+    sail artisian db:seed --class=DatabaseSeeder
+    ```
     ```
 8. ```console
+    sail artisian serve
+    ```
+9. ```console
     npm run dev
     ```
-
-## Autentication based on
-https://techvblogs.com/blog/spa-authentication-laravel-9-sanctum-vue3-vite
 
 ## License
 
